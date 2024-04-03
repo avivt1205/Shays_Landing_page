@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+:root {
+	--primary-color: #E1C5B8;
+}
+.headline {
+	font-size: clamp(42px, 2.188vw, 100px);
+}
+.subheadline {
+	font-size: clamp(28px, 1.354vw, 60px);
+	color: var(--primary-color);
+}

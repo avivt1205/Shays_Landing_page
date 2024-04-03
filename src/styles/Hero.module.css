@@ -1,0 +1,23 @@
+.hero_wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;    
+}
+.hero_right, .hero_left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.hero_left {
+    padding-inline: 20px;
+}
+.hero_left_conetnt {
+    max-width: 450px;
+}
+@media (max-width: 768px) {
+    .hero_wrapper {
+        flex-direction: column;
+    }
+}
