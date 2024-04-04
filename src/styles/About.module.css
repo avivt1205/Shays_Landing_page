@@ -1,0 +1,41 @@
+.about_wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 500px;
+    padding-top: 50px;    
+}
+.cubes_wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cube {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+.cube_icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.cube_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .cube {
+        width: 100%;
+    }
+}

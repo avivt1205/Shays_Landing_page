@@ -6,7 +6,7 @@
     min-height: 500px;    
 }
 .hero_right, .hero_left {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
 }
@@ -16,8 +16,26 @@
 .hero_left_conetnt {
     max-width: 450px;
 }
+.hero_right {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 30%;
+}
+.hero_right > img {
+    width: 100%;
+    transition: all 0.35s ease-in-out;
+}
+.hero_right:hover img{
+    transform: scale(1.1);
+}
 @media (max-width: 768px) {
     .hero_wrapper {
         flex-direction: column;
+    }
+    .hero_right, .hero_left {
+        width: 100%;
+    }
+    .hero_right {
+        margin-bottom: 40px;
     }
 }

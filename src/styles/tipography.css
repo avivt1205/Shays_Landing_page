@@ -4,10 +4,80 @@
 :root {
 	--primary-color: #E1C5B8;
 }
+.headline_primary {
+	font-size: clamp(45px, 3.127vw, 100px);
+	font-weight: 800;
+}
 .headline {
-	font-size: clamp(42px, 2.188vw, 100px);
+	font-size: clamp(38px, 2.188vw, 100px);
+	font-weight: 800;
 }
 .subheadline {
 	font-size: clamp(28px, 1.354vw, 60px);
 	color: var(--primary-color);
+}
+.intro_title {
+	font-size: clamp(18px, 1.146vw, 40px);
+	color: var(--primary-color);
+	font-style: italic;
+}
+.gap_block {
+	padding-block: 10px 15px;
+}
+.gap_inline {
+	padding-inline: 15px;
+}
+.flex {
+	display: flex;
+}
+.line_height {
+	line-height: 1.425;
+}
+.btn {
+	display: inline-block;
+    padding: 10px 20px;
+    font-size: clamp(14px, 0.954vw, 20px);
+    font-weight: 400;
+    color: var(--primary-color);
+    text-decoration: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px 0;
+    transition: all 0.35s ease-in-out;
+	background: transparent;
+	margin-top: 15px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.btn::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background: var(--primary-color);
+	transition: all 0.35s ease-in-out;
+	z-index: -1;
+}
+.btn:hover::before {
+	width: 100%;
+}
+ .btn:hover {
+	color: #000;
+    box-shadow: -5px 3px 8px 1px #e3e3e3;
+} 
+.seperator {
+	position: relative;
+}
+.seperator::before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	width: 25dvw;
+    height: 1px;
+    background-color: var(--primary-color);
 }

@@ -22,6 +22,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+section {
+	margin-bottom: 100px;
+}
 body {
 	line-height: 1;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
@@ -46,11 +49,7 @@ table {
 .site-container {
     background-image: url('/src/assets/pattern.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    background-repeat: no-repeat;    
 	padding-inline: clamp(20px, 7.5vw, 100px);
 	padding-block: clamp(20px, 2.083vw, 40px);
-	overflow-x: hidden;
-	overflow-y: auto;
 }
