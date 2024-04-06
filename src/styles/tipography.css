@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 :root {
 	--primary-color: #E1C5B8;
+	--secondary-color: #9C6660;
 }
 .headline_primary {
 	font-size: clamp(45px, 3.127vw, 100px);
@@ -15,11 +16,13 @@
 .subheadline {
 	font-size: clamp(28px, 1.354vw, 60px);
 	color: var(--primary-color);
+	font-weight: 600;
 }
 .intro_title {
 	font-size: clamp(18px, 1.146vw, 40px);
 	color: var(--primary-color);
 	font-style: italic;
+	width: 100%;
 }
 .gap_block {
 	padding-block: 10px 15px;

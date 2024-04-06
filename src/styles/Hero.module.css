@@ -16,6 +16,10 @@
 .hero_left_conetnt {
     max-width: 450px;
 }
+.hero_left_conetnt_span {
+    flex-direction: column;
+    row-gap: 10px;
+}
 .hero_right {
     overflow: hidden;
     border-radius: 50%;

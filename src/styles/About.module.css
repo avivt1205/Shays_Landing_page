@@ -11,6 +11,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    column-gap: 50px;
     width: 100%;
 }
 .cube {
@@ -18,7 +19,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 50%;
+    width: 35%;
     padding: 20px;
 }
 .cube_icon {
@@ -33,8 +34,36 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    line-height: 1.467;
+}
+.cube_content {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 10px;
+}
+.list_icon {
+    min-width: 25px;
+    max-width: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2040%2040%22%3E%3Cpath%20d%3D%22M2.6%2C20.8l1.5-1.5c0.2-0.2%2C0.5-0.2%2C0.7%2C0l11%2C11l21-21c0.2-0.2%2C0.5-0.2%2C0.7%2C0l1.5%2C1.5c0.2%2C0.2%2C0.2%2C0.5%2C0%2C0.7L15.8%2C34.7%20L2.6%2C21.5C2.4%2C21.3%2C2.4%2C21%2C2.6%2C20.8z%22%20fill%3D%22%239C6660%22%20%2F%3E%3C%2Fsvg%3E);
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-flex;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+}
+@media(min-width: 768px) {
+    .cube {
+        min-height: 460px;
+    }
 }
 @media (max-width: 768px) {
+    .cubes_wrapper {
+        flex-flow: column;
+    }
     .cube {
         width: 100%;
     }

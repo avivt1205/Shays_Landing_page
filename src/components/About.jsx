@@ -11,14 +11,15 @@ const About = () => {
         <h2 className='headline'>קצת עלי</h2>
         <div className={styles.cubes_wrapper}>
           <div className={styles.cube}>
-            <img src='../../../../../' className={styles.cube_icon}/>
+            <img src='../src/assets/professionalism.png' className={styles.cube_icon}/>
             <h4 className='subheadline flex gap_block'>
               ניסיון מקצועי
             </h4>
-            <ul className='cube_content_wrapper'>
-              {aboutProfessions.map((profession) => {
+            <ul className={styles.cube_content_wrapper}>
+              {aboutProfessions.map((profession, key) => {
                 return (
-                  <li className='cube_content'>
+                  <li className={styles.cube_content} key={profession.title}>
+                    <span className={styles.list_icon}></span>
                     <h5 className='cube_content_title'>{profession.title}</h5>                   
                   </li>
                 )
@@ -26,24 +27,26 @@ const About = () => {
             </ul>
           </div>
           <div className={styles.cube}>
-            <img src='../../../../../' className={styles.cube_icon}/>
+            <img src='../src/assets/expertise.png' className={styles.cube_icon}/>
             <h4 className='subheadline flex gap_block'>
               תארים אקדמיים וקורסי השלמה
             </h4>
-            <ul className='cube_content_wrapper'>
-              {aboutEducation.map((education) => {
+            <ul className={styles.cube_content_wrapper}>
+              {aboutEducation.map((education, key) => {
                 return (
-                  <li className='cube_content'>
+                  <li className={styles.cube_content} key={education.title}>
+                    <span className={styles.list_icon}></span>
                     <h5 className='cube_content_title'>{education.title}</h5>                   
                   </li>
                 )
               })}
             </ul>
             <h5 className='intro_title gap_block'>הכשרות וקורסים נוספים</h5>
-            <ul className='cube_content_wrapper'>
-            {aboutExternalCourses.map((course) => {
+            <ul className={styles.cube_content_wrapper}>
+            {aboutExternalCourses.map((course, key) => {
                 return (
-                  <li className='cube_content'>
+                  <li className={styles.cube_content} key={course.title}>
+                    <span className={styles.list_icon}></span>
                     <h5 className='cube_content_title'>{course.title}</h5>                   
                   </li>
                 )
