@@ -1,9 +1,10 @@
 import React from 'react'
-
 const Contact = () => {
   return (
-    <section id='contact'>
-
+    <section id='contact' className='seperator'>
+      <div className='contact_wrapper'>
+        
+      </div>
     </section>
   )
 }

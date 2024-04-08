@@ -78,7 +78,7 @@ export const systemsExpertise = [
         "img": "src/assets/personality-disorder.png",
     },
     {
-        "title": "הרדכות הורים",
+        "title": "הדרכות הורים",
         "img": "src/assets/parents-guidence.png",
     },
     {

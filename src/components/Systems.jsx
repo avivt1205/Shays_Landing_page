@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/Systems.module.css';
-//import { systemsExpertise } from '../content/SiteData';
 import Gallery from './Gallery';
+
 const Systems = () => {
   return (
     <section id='systems' className='seperator'>
