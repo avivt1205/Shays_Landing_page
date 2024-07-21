@@ -23,6 +23,13 @@
 	color: var(--primary-color);
 	font-style: italic;
 	width: 100%;
+	font-weight: 300;
+}
+.header-wrapper {
+	text-align: center;
+}
+.max-w {
+	max-width: 450px;
 }
 .gap_block {
 	padding-block: 10px 15px;

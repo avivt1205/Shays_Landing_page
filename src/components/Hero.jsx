@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from '../styles/Hero.module.css'
 
-const Hero = () => {
+const Hero = ({ scrollToElem }) => {
+
   return (
     <section id='hero'>
       <div className={styles.hero_wrapper}>
@@ -19,7 +20,7 @@ const Hero = () => {
  בסקרנות משותפת לתוך הנפש, ניגע בקושי ובכאב, בחוזקות וביכולת וזאת על מנת לטפח יכולת לשאת את אתגרי המציאות ולחיות חיים אותנטיים בעלי משמעות ורווחה.</p>
               <p>אני מאמינה בהתאמת הטיפול לצרכי המטופל ולרצונו, משתמשת בפסיכותרפיה ארוכה וקצרת מועד, עושה שימוש בכלים גופניים, חווייתיים, ממוקדי רגש ומשלבת כלים קוגניטיביים - התנהגותיים.</p>
             </span>
-            <button className="btn btn_primery">שיטות טיפול</button>
+            <button className="btn btn_primery" onClick={scrollToElem} name="#systems">שיטות טיפול</button>
           </div>
         </div>
       </div>

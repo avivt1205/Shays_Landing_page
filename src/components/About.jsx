@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/tipography.css';
 import styles from '../styles/About.module.css';
+import Header from './Header';
 
 import { aboutEducation, aboutProfessions, aboutExternalCourses} from '../content/SiteData';
 
@@ -8,7 +9,7 @@ const About = () => {
   return (
     <section id='about' className='seperator'>
       <div className={styles.about_wrapper}>
-        <h2 className='headline'>קצת עלי</h2>
+        <Header category="קצת עלי" title="נסיון מקצועי, תארים וקורסי השלמה"/>
         <div className={styles.cubes_wrapper}>
           <div className={styles.cube}>
             <img src='../src/assets/professionalism.png' className={styles.cube_icon}/>
