@@ -7,7 +7,7 @@ import Hero from '../src/components/Hero'
 import About from '../src/components/About'
 import Systems from '../src/components/Systems'
 import Contact from '../src/components/Contact'
-
+import Whatsapp from "./components/Whatsapp";
 function App() {
   // Scroll to Systems section when clicked
   function scrollToElem(str) {  
@@ -25,6 +25,7 @@ function App() {
           <Systems />
           <Contact />
         </div>
+        <Whatsapp />
       </main>
   )
 }

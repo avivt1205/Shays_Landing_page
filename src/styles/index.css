@@ -179,3 +179,22 @@ table {
       @apply bg-background text-foreground;
     }
   }
+
+  .whatsapp_cta {
+    left: 50px;
+    bottom: 50px;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+  }
+  .whatsapp_cta > a {
+    width: 100%;
+    height: 100%;
+    background: cover;
+  }
+  @media (max-width:768px) {
+    .whatsapp_cta {
+      left: 25px;
+      bottom: 25px;
+    }
+  }
