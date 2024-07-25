@@ -12,7 +12,7 @@ const About = () => {
         <Header category="קצת עלי" title="נסיון מקצועי, תארים וקורסי השלמה"/>
         <div className={styles.cubes_wrapper}>
           <div className={styles.cube}>
-            <img src='../src/assets/professionalism.png' className={styles.cube_icon}/>
+            <img src={"/professionalism.png"} className={styles.cube_icon}/>
             <h4 className='subheadline flex gap_block'>
               ניסיון מקצועי
             </h4>

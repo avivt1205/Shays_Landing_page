@@ -7,7 +7,7 @@ const Hero = ({ scrollToElem }) => {
     <section id='hero'>
       <div className={styles.hero_wrapper}>
         <div className={styles.hero_right}>
-          <img src='../src/assets/avatar.jpg' className='hero_right_image'/>
+          <img src='/avatar.jpg' className='hero_right_image'/>
         </div>
         <div className={styles.hero_left}>
           <div className={styles.hero_left_conetnt}>

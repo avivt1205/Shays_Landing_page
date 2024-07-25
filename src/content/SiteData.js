@@ -43,66 +43,66 @@ export const aboutExternalCourses = [
 export const systemsExpertise = [
     {
         "title": "חרדה",
-        "img": "src/assets/anxiety.png",
+        "img": "/anxiety.png",
     },
     {
         "title": "דכאון",
-        "img": "src/assets/depression.png",
+        "img": "/depression.png",
     },
     {
         "title": "דכאון אחרי לידה",
-        "img": "src/assets/afterBirth-depression.png",
+        "img": "/afterBirth-depression.png",
     },
     {
         "title": "טראומה וטראומה מורכבת",
-        "img": "src/assets/trauma.png",
+        "img": "/trauma.png",
     },
     {
         "title": "פוסט טראומה",
-        "img": "src/assets/post-trauma.png",
+        "img": "/post-trauma.png",
     },
     {
         "title": "שליטה בכעסים",
-        "img": "src/assets/anger-managment.png",
+        "img": "/anger-managment.png",
     },
     {
         "title": "משברי חיים",
-        "img": "src/assets/angry.png",
+        "img": "/angry.png",
     },
     {
         "title": "הפרעות התנהגות",
-        "img": "src/assets/dissociative-identity-disorder.png",
+        "img": "/dissociative-identity-disorder.png",
     },
     {
         "title": "הפרעות אישיות",
-        "img": "src/assets/personality-disorder.png",
+        "img": "/personality-disorder.png",
     },
     {
         "title": "הדרכות הורים",
-        "img": "src/assets/parents-guidence.png",
+        "img": "/parents-guidence.png",
     },
     {
         "title": "הדרכות הורים לגיל הרך",
-        "img": "src/assets/family-guidence.png",
+        "img": "/family-guidence.png",
     },
     {
         "title": "תקשורת אלימה",
-        "img": "src/assets/violence.png",
+        "img": "/violence.png",
     },
     {
         "title": "ניכור הורי",
-        "img": "src/assets/parents-spliting.png",
+        "img": "/parents-spliting.png",
     },
     {
         "title": "הפרעות קשב וריכוז",
-        "img": "src/assets/adhd.png",
+        "img": "/adhd.png",
     },
     {
         "title": "גיל שלישי",
-        "img": "src/assets/elderly.png",
+        "img": "/elderly.png",
     },
     {
         "title": "מיינדפולנס",
-        "img": "src/assets/mindfulness.png",
+        "img": "/mindfulness.png",
     }
 ] 
