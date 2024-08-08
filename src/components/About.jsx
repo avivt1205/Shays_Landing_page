@@ -28,7 +28,7 @@ const About = () => {
             </ul>
           </div>
           <div className={styles.cube}>
-            <img src='../src/assets/expertise.png' className={styles.cube_icon}/>
+          <img src={'/expertise.png'} className={styles.cube_icon}/>
             <h4 className='subheadline flex gap_block'>
               תארים אקדמיים וקורסי השלמה
             </h4>
